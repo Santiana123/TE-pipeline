@@ -29,7 +29,7 @@ cd ./00.EDTA
 # Create symbolic link to genome file
 ln -s ${fa} genome.fasta
 #########EDTA annotation
-EDTA.pl --genome genome.fasta --species others --sensitive 0 --anno 1 --overwrite 0 \
+EDTA.pl --genome genome.fasta --species others --sensitive 0 --anno 0 --overwrite 0 \
         --threads ${cpu} --curatedlib mipsREdat_9.3p_ALL_library2.fix.fa
 cd ../
 
